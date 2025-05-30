@@ -1,9 +1,19 @@
-/*  your css code here. If applicable */
-.code-container{
-	display:flex;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
 }
 
-input{
-	height:40px;
-	width:40px;
+.code-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.code {
+  width: 40px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
 }
